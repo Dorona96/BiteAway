@@ -8,7 +8,7 @@ const HistoryOrdersBtn = (props) => {
       <span className={classes.icon}>
         <Icon icon="bi:clock-history" />
       </span>
-      <span>Your Last Orders</span>
+      <span>Last Orders</span>
     </button>
   );
 };

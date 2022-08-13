@@ -1,6 +1,9 @@
 .form {
     text-align: right;
   }
+  .icon{
+    height: 5rem;
+  }
   
   .form button {
     font: inherit;

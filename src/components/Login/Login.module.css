@@ -1,0 +1,56 @@
+.login{
+    display: grid;
+    margin: 15px;
+    align-items: center;
+}
+h1{
+    margin: 15px 5px;
+}
+.login label{
+    margin-top: 20px;
+}
+.login input{
+    padding: 10px;
+}
+
+.login p{
+    color: red;
+}
+
+.login button{
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+    width: 200px;
+    cursor: pointer;
+    background-color: #32068a;
+    color: white;
+    border: 1px solid #32068a;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    
+}
+.login button:hover,
+.login button:active {
+    background-color: #712ff6;
+    border-color: #712ff6;
+    color: white;
+  }
+.go_register{
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+.go_register button{
+    background:none;
+    border: none;
+    color: blueviolet;
+    font-weight: 500;
+    font-size: large;
+    cursor: pointer;
+    
+}
+.go_register button:hover{
+    color: rgb(56, 1, 110);
+    font-size: larger;
+}

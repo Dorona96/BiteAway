@@ -4,6 +4,7 @@ import CartItem from "./CartItem";
 import classes from "./Cart.module.css";
 import CartContext from "../../store/CartContext";
 import CheckOut from "./CheckOut";
+import Invoice from "./Invoice";
 
 const Cart = (props) => {
   const [isCheckOut, setIsCheckOut] = useState(false);
@@ -87,7 +88,7 @@ const Cart = (props) => {
   const isSubmittingModalContent = <p>Sending order data...</p>;
   const didSubmitModalContent = (
     <Fragment>
-      <p>Succefully sent the order!</p>
+      <Invoice totalAmount={totalAmount}/>
       <div className={classes.actions}>
         <button className={classes.button} onClick={props.onClose}>
           {" "}

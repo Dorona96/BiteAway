@@ -11,12 +11,44 @@
   }
   
   .description {
-    font-style: italic;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;  
+    width: 600px;
   }
   
+  .description:hover {
+    text-overflow: clip;
+    white-space: normal;
+    word-break: break-all;
+    text-align: justify;
+}
+  .reviewP{
+    margin: 0px 0px 10px;
+    font-weight: 300;
+    color: rgb(118, 120, 123);
+    text-align: center;
+  }
   .price {
     margin-top: 0.25rem;
     font-weight: bold;
     color: #2e0384;
     font-size: 1.25rem;
+  }
+
+  .reviewBtn {
+    font: inherit;
+    cursor: pointer;
+    background-color: #30068a;
+    border: 1px solid #39068a;
+    color: white;
+    padding: 0.25rem 2rem;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  
+  .reviewBtn:hover,
+  .reviewBtn:active {
+    background-color: #712ff6;
+    border-color: #712ff6;
   }

@@ -10,9 +10,13 @@
 
 .modal {
   position: fixed;
-  top: 15vh;
+  top: 10vh;
   left: 5%;
   width: 90%;
+  height: auto;
+  max-height: 80%;
+  overflow: scroll;
+
   background-color: white;
   padding: 1rem;
   border-radius: 14px;

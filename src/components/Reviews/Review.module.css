@@ -1,0 +1,92 @@
+.reviews{
+  width: 100%;
+  overflow: scroll;
+  max-height: 250px;
+  padding-left: 0;
+}
+.reviewsList{
+  border: #712ff6 solid 1px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+#star{
+  margin-left: 5px;
+}
+.reviewsList div{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  text-decoration: none;
+  padding: 5px;
+}
+
+label{
+  font-weight: 600;
+  margin-left: 10px;
+  justify-self: start;
+  color: #9e71ff;
+}
+p{
+  justify-self: start;
+  margin: 0;
+}
+
+.actions button {
+    font: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #32068a;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+  }
+  .actions button:hover,
+  .actions button:active {
+    background-color: #712ff6;
+    border-color: #712ff6;
+    color: white;
+  }
+  
+  .actions .button--alt {
+    color: #32068a;
+  }
+  
+  .actions .button {
+    background-color: #32068a;
+    color: white;
+    margin: 10px;
+
+  } 
+
+  .form{
+    display: flex;
+    justify-content: space-between;
+  }
+  .form input{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+  .form button {
+    font: inherit;
+    cursor: pointer;
+    background-color: #9e71ff;
+    border: 1px solid #9e71ff;
+    color: white;
+    padding: 0.25rem 2rem;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+  
+  .form button:hover,
+  .form button:active {
+    background-color: #712ff6;
+    border-color: #712ff6;
+  }
+
+  .stars{
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .stars svg{
+    margin-right: 10px;
+  }
