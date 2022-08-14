@@ -10,14 +10,14 @@ import Login from "./components/Login/Login";
 import Register from "./components/Login/Register";
 function App() {
   const [cartIsShown, setCartIsShown] = useState(false);
-  const [loginIsShown, setLoginIsShown] = useState(false); //change to true before sending
+  const [loginIsShown, setLoginIsShown] = useState(true); 
   const [registerIsShown, setRegisterIsShown] = useState(false);
   const [historyIsShown, setHistoryIsShown] = useState(false);
   const [filterIsShown, setFilterIsShown] = useState(false);
   const [reviewIsShown, setReviewIsShown] = useState(false);
   const [filterType, setFilterType] = useState("All Meals");
-  const [user, setUser] = useState("ds@gmail.com"); //remove the email before sending
-  const [meal, setMeal] = useState(); //remove the email before sending
+  const [user, setUser] = useState(); 
+  const [meal, setMeal] = useState(); 
   const [reviews, setReviews] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState();
